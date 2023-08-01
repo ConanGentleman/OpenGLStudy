@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1HelloTringle2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2HelloTringle3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3shader123.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4texture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5Transformations.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6CoordinateSystems.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="7Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="8Colors.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9BasicLighting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="10Materials.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11LightMaps.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="12Lightcasters.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="13Multiplelights.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="model.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="14model_loading.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="15depth_testing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="16stencil_testing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="17blending_discard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="17.2blending_sorted.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18Faceculling.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="19framebuffers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20cubemaps_skybox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20model_skybox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21advanced_glsl_ubo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="22geometry_shader_houses.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="22geometry_shader_exploding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="23instancing_quads.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="23asteroids_instanced.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="24anti_aliasing_multisampling.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="25advanced_lighting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="26shadow_mapping.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="27PointShadows.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="29normal_mapping.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="30parallax_occlusion_mapping.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="31HDR.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="32bloom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="33deferred_shading_volumes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="34ssao.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="35lighting_textured.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="36ibl_irradiance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="37ibl_specular_textured.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="35lighting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="39text_rendering.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="8ColorsCopy.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="0modelreflect">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="0meshreflect">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_m.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Opengltest\packages\nupengl.core.0.1.0.1\build\native\include\GL\glew.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="14.model_loading.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="14.model_loading.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="1.1.depth_testing.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="1.1.depth_testing.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="16.stencil_testing.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="16.stencil_testing.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="16.stencil_single_color.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="17.blending.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="17.blending.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="17.2.blending.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="17.2.blending.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="19.framebuffers.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="19.framebuffers.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="19.framebuffers_screen.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="19.framebuffers_screen.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="20.cubemaps.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="20.cubemaps.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="20.skybox.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="20.skybox.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="20.1.cubemaps.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="20.1.cubemaps.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="20.1.skybox.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="20.1.skybox.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="20.model_loading.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="20.model_loading.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="21.advanced_glsl.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="21.red.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="21.green.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="21.blue.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="21.yellow.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="22.geometry_shader.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="22.geometry_shader.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="22.geometry_shader.gs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="22.2.geometry_shader.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="22.2.geometry_shader.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="22.2.geometry_shader.gs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="23.instancing.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="23.instancing.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="23.asteroids.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="23.asteroids.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="23.planet.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="23.planet.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="24.advanced_lighting.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="24.advanced_lighting.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="26shadow_mapping.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="26shadow_mapping.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="26shadow_mapping_depth.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="26shadow_mapping_depth.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="26debug_quad.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="26debug_quad.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="27.point_shadows.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="27.point_shadows.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="27.point_shadows_depth.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="27.point_shadows_depth.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="27.point_shadows_depth.gs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="29.normal_mapping.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="29.normal_mapping.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="30.parallax_mapping.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="30.parallax_mapping.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="31.lighting.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="31.lighting.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="31.hdr.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="31.hdr.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="32.bloom.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="32.bloom.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="32.bloom_final.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="32.bloom_final.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="32.blur.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="32.blur.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="32.light_box.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="33.g_buffer.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="33.g_buffer.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="33.deferred_light_box.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="33.deferred_light_box.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="33.deferred_shading.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="33.deferred_shading.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="34.ssao.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="34.ssao.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="34.ssao_blur.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="34.ssao_geometry.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="34.ssao_geometry.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="34.ssao_lighting.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="35.pbr.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="35.pbr.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="36.background.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="36.background.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="36.cubemap.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="36.equirectangular_to_cubemap.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="36.irradiance_convolution.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="36.pbr.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="36.pbr.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="37.background.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="37.background.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="37.brdf.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="37.brdf.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="37.cubemap.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="37.equirectangular_to_cubemap.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="37.irradiance_convolution.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="37.pbr.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="37.pbr.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="37.prefilter.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="35.1.pbr.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="35.1.pbr.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="39.text.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="39.text.vs">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

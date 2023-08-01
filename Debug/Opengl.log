@@ -1,0 +1,3 @@
+﻿main.obj : error LNK2019: 无法解析的外部符号 _glfwInit，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _glfwWindowHint，函数 _main 中引用了该符号
+D:\VistuaStudioProject\Opengl\Debug\Opengl.exe : fatal error LNK1120: 2 个无法解析的外部命令
